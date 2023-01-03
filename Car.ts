@@ -1,5 +1,5 @@
 export class Car {
-  year: number;
+  year!: number;
 
   drive(speed: number) {
     console.log(`Driving at ${speed}`);
